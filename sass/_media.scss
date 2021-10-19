@@ -1,0 +1,156 @@
+@media (max-width: 991px) {
+    $slider-width: 750px;
+    .header {
+        justify-content: space-around;
+    }
+    .promo {
+        &_wrapper {
+            margin-right: 30px;
+        }
+    }
+    .consult {
+        min-height: 565px;
+        padding: 50px 0;
+        &_header {
+            font-size: 33px;
+            text-align: center;
+        }
+        &_desc {
+            text-align: center;
+        }
+        .feed-form {
+            justify-content: center;
+            align-items: stretch;
+            margin: 0 auto;
+        }
+    }
+    .benefits {
+        &_text {
+            width: 200px;
+            a {
+                display: block;
+                width: 200px;
+                text-align: center;
+            }
+        }
+    }
+    .carousel {
+        .owl-carousel {
+            width: 650px;
+        }
+
+    }
+}
+@media (max-width: 767px) {
+    $slider-width: 300px;
+    .header {
+        justify-content: space-between;
+        &_logo {
+            width: 190px;
+        }
+        &_phone {
+            font-size: 17px;
+        }
+        &_official {
+            font-size: 13px;
+        }
+    }
+    .promo {
+        min-height: 600px;
+        padding-bottom: 0;
+        &_wrapper {
+            margin: 0 auto;
+            align-items: center;
+        }
+    }
+    .benefits {
+        &_icons {
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &_header {
+            margin-bottom: 0;
+
+        }
+        &_icon {
+            margin-top: 30px;
+        }
+        &_text {
+            width: 250px;
+            a {
+                width: 100%;
+            }
+        }
+        &_subheader {
+            padding-top: 15px;
+            padding-bottom: 10px;
+        }
+    }
+    .consult_header {
+        font-size: 24px;
+        line-height: 40px;
+    }
+}
+@media (max-width: 575px) {
+    .header {
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 200px;
+        &:last-child {
+            width: 320px;
+            margin: 0 auto;
+        }
+        &_logo {
+            width: 300px;
+        }
+        &_official {
+            font-weight: 500;
+            font-size: 12px;
+        }
+    }
+    .promo {
+        &_wrapper {
+            padding: 50px 0;
+        }
+        &_header {
+            font-size: 35px;
+            text-align: center;
+        }
+        &_subheader {
+            font-size: 19px;
+            text-align: center;
+        }
+        &_icons {
+            flex-direction: column;
+            width: 320px;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &_icon {
+            margin-top: 35px;
+            img {
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .button {
+        &_main {
+            width: 280px;
+            margin-top: 57px;
+        }
+    }
+    .benefits {
+        padding: 60px 0;
+        &_header {
+            font-size: 25px;
+        }
+    }
+    .consult_header {
+        font-size: 23px;
+    }
+    .consult_desc {
+    font-size: 15px;
+    }
+}
