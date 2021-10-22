@@ -38,7 +38,7 @@
     // }
     .owl-carousel {
         position: relative;
-        width: $slider-width;
+        width: 750px;
         margin: 0 auto;
         .slider-img {
             transform: translateY(20%);
@@ -50,8 +50,6 @@
             border: none;
             padding: 0;
             background-color: #fff;
-            top: 50%;
-            transform: translateY(-50%);
             .owl-prev1 {
                 position: absolute;
                 top: 50%;
@@ -71,7 +69,7 @@
                 transform: translateY(-50%);
                 background-color: #fff;
                 border: none;
-                left: -100px;
+                right: -816px;
             }
         }
     
@@ -80,8 +78,4 @@
     
 
 
-}
-.newblock {
-    min-height: 1000px;
-    background-color: #000;
 }

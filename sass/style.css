@@ -326,8 +326,6 @@ h1 {
   border: none;
   padding: 0;
   background-color: #fff;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
 .carousel .owl-carousel .owl-nav .owl-prev1 {
@@ -392,8 +390,18 @@ h1 {
     width: 200px;
     text-align: center;
   }
+  .carousel {
+    padding: 81px 0;
+    min-height: 550px;
+  }
   .carousel .owl-carousel {
     width: 650px;
+  }
+  .carousel .owl-carousel .owl-nav .owl-prev1 {
+    left: -50px;
+  }
+  .carousel .owl-carousel .owl-nav .owl-next1 {
+    right: -700px;
   }
 }
 
@@ -453,6 +461,19 @@ h1 {
   .consult_header {
     font-size: 24px;
     line-height: 40px;
+  }
+  .carousel {
+    padding: 70px 0;
+    min-height: 520px;
+  }
+  .carousel .owl-carousel {
+    width: 480px;
+  }
+  .carousel .owl-carousel .owl-nav .owl-prev1 {
+    left: -50px;
+  }
+  .carousel .owl-carousel .owl-nav .owl-next1 {
+    right: -530px;
   }
 }
 
@@ -526,6 +547,32 @@ h1 {
   }
   .consult_desc {
     font-size: 15px;
+  }
+  .carousel {
+    padding: 50px 0;
+    min-height: 420px;
+  }
+  .carousel .owl-carousel {
+    width: 280px;
+    margin: 0 auto;
+  }
+  .carousel .owl-carousel .owl-nav {
+    position: relative;
+    width: 100%;
+    margin: 10px auto;
+  }
+  .carousel .owl-carousel .owl-nav .owl-prev1, .carousel .owl-carousel .owl-nav .owl-next1 {
+    position: relative;
+    top: 20px;
+    left: 100px;
+    right: unset;
+  }
+  .carousel .owl-carousel .owl-nav .owl-prev1 img, .carousel .owl-carousel .owl-nav .owl-next1 img {
+    width: 20px;
+    height: 33px;
+  }
+  .carousel .owl-carousel .owl-nav .owl-next1 {
+    left: 120px;
   }
 }
 /*# sourceMappingURL=style.css.map */
